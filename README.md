@@ -15,6 +15,7 @@ Our team's entry for the office Halloween contest: a walk-through Quick Quack Ca
 | [04-Build-Schedule](04-Build-Schedule.md) | Weekly checklist through setup day |
 | [05-Build-Notes](05-Build-Notes.md) | Sign, gate arm, brush, and servo details |
 | [06-Reference-Footage](06-Reference-Footage.md) | What a real site looks like, and ideas from it |
+| [3D walk-through](walkthrough/index.html) | Tour, walk, or map the planned tunnel. Download the file and open it in a browser, or turn on GitHub Pages. |
 
 ## How to give feedback
 
