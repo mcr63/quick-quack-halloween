@@ -1,0 +1,132 @@
+{
+ "note": "Re-pack with src/to_bambu.py --template <a Bambu-saved P2S 3MF>. Filament slots 1 yellow, 2 orange, 3 white, 4 black. Coordinates are plate mm.",
+ "filament_slots": {
+  "1": "yellow",
+  "2": "orange",
+  "3": "white",
+  "4": "black"
+ },
+ "filament_hex": [
+  "#FFC72C",
+  "#FF7F27",
+  "#FFFFFF",
+  "#161616"
+ ],
+ "plates": [
+  {
+   "plate": "A",
+   "file": "WRONG_WAY_A_sign.3mf",
+   "bambu_file": "WRONG_WAY_A_sign_bambu.3mf",
+   "title": "WRONG WAY sign",
+   "print_sequence": "by object",
+   "objects": [
+    {
+     "name": "WRONG WAY sign",
+     "parts": [
+      {
+       "color": "yellow",
+       "filament": 1,
+       "stl": "A_sign_1_yellow.stl"
+      },
+      {
+       "color": "orange",
+       "filament": 2,
+       "stl": "A_sign_2_orange.stl"
+      },
+      {
+       "color": "white",
+       "filament": 3,
+       "stl": "A_sign_3_white.stl"
+      },
+      {
+       "color": "black",
+       "filament": 4,
+       "stl": "A_sign_4_black.stl"
+      }
+     ]
+    }
+   ],
+   "tower_box": [
+    5.0,
+    158.0,
+    251.0,
+    251.0
+   ],
+   "wipe_tower_xy": [
+    15.0,
+    166.0
+   ]
+  },
+  {
+   "plate": "B",
+   "file": "WRONG_WAY_B_mounts.3mf",
+   "bambu_file": "WRONG_WAY_B_mounts_bambu.3mf",
+   "title": "Pipe mount: 4 receivers, 2 clips",
+   "print_sequence": "by layer",
+   "objects": [
+    {
+     "name": "Receiver 1 - top",
+     "parts": [
+      {
+       "color": "black",
+       "filament": 4,
+       "stl": "B_receiver1_4_black.stl"
+      }
+     ]
+    },
+    {
+     "name": "Receiver 2 - bottom",
+     "parts": [
+      {
+       "color": "black",
+       "filament": 4,
+       "stl": "B_receiver2_4_black.stl"
+      }
+     ]
+    },
+    {
+     "name": "Receiver 3 - left",
+     "parts": [
+      {
+       "color": "black",
+       "filament": 4,
+       "stl": "B_receiver3_4_black.stl"
+      }
+     ]
+    },
+    {
+     "name": "Receiver 4 - right",
+     "parts": [
+      {
+       "color": "black",
+       "filament": 4,
+       "stl": "B_receiver4_4_black.stl"
+      }
+     ]
+    },
+    {
+     "name": "Clip 1",
+     "parts": [
+      {
+       "color": "black",
+       "filament": 4,
+       "stl": "B_clip1_4_black.stl"
+      }
+     ]
+    },
+    {
+     "name": "Clip 2",
+     "parts": [
+      {
+       "color": "black",
+       "filament": 4,
+       "stl": "B_clip2_4_black.stl"
+      }
+     ]
+    }
+   ],
+   "tower_box": null,
+   "wipe_tower_xy": null
+  }
+ ]
+}
